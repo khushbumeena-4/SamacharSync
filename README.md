@@ -1,47 +1,141 @@
-# 📰 News Aggregator
+# 📰 SamacharSync
 
-## 🚀 Overview
+### Real-Time Multi-Source News Dashboard
 
-A web application that gathers news from multiple sources and displays them in one place for easy access.
+SamacharSync is a modern news aggregation platform that collects and displays real-time news from multiple sources in a clean, interactive dashboard. Users can explore trending headlines, search for specific topics, and filter news by category through a responsive Streamlit interface.
 
-## ✨ Features
+---
 
-* Browse latest news articles
-* Category-wise filtering
-* Search news by keywords
-* Responsive user interface
+## 🚀 Features
+
+✅ Real-time news fetching using NewsAPI
+
+✅ Multi-source news collection
+
+✅ Smart news categorization
+
+✅ Search functionality
+
+✅ Trending news section
+
+✅ Category-based filtering
+
+✅ Dark/Light theme support
+
+✅ Modern responsive UI
+
+✅ News statistics dashboard
+
+✅ Image previews for articles
+
+---
 
 ## 🛠️ Tech Stack
 
-* HTML
-* CSS
-* JavaScript
-* News API
+* Python
+* Streamlit
+* NewsAPI
+* Requests
+* HTML/CSS
+* Session State Management
+
+---
+
+## 📸 Preview
+
+Add your project screenshots here.
+
+```md
+![Homepage](screenshots/homepage.png)
+
+![Dashboard](screenshots/dashboard.png)
+```
+
+---
 
 ## 📂 Project Structure
 
 ```text
-news-aggregator/
-├── index.html
-├── style.css
-├── script.js
-└── assets/
+SamacharSync/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+└── screenshots/
 ```
 
-## ▶️ How to Run
+---
 
-1. Clone the repository.
-2. Open the project folder.
-3. Run `index.html` in your browser.
+## ⚙️ Installation
 
-## 📈 Future Improvements
+### Clone Repository
 
+```bash
+git clone https://github.com/yourusername/SamacharSync.git
+```
+
+### Move to Project Folder
+
+```bash
+cd SamacharSync
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🔍 Available Categories
+
+* Technology
+* Business
+* Sports
+* Entertainment
+* Politics
+* Health
+* Science
+* General
+
+---
+
+## 📈 Future Enhancements
+
+* AI-powered news summarization
+* Sentiment analysis of articles
+* Personalized news recommendations
+* Bookmark & save articles
 * User authentication
-* Bookmark articles
-* Dark mode
-* Personalized recommendations
+* Regional language support
+
+---
+
+## 💡 Project Highlights
+
+* Built a modern real-time news dashboard using Streamlit.
+* Integrated NewsAPI for live news retrieval.
+* Implemented category-based filtering and keyword search.
+* Designed an interactive UI with theme switching and statistics cards.
+* Improved user experience through responsive layouts and trending news sections.
+
+---
 
 ## 👩‍💻 Author
 
-Khushbu Meena
+**Khushbu Meena**
 
+B.Tech Computer Science Engineering Student
+
+Passionate about building practical applications and continuously learning new technologies.
+
+---
+
+⭐ If you like this project, consider giving it a star!
