@@ -3,6 +3,7 @@
 ### Real-Time Multi-Source News Dashboard
 
 SamacharSync is a modern news aggregation platform that collects and displays real-time news from multiple sources in a clean, interactive dashboard. Users can explore trending headlines, search for specific topics, and filter news by category through a responsive Streamlit interface.
+<img width="1457" height="650" alt="samachar1" src="https://github.com/user-attachments/assets/471b99b0-8ef4-4612-a17a-08d74aa76b08" />
 
 ---
 
