@@ -6,7 +6,7 @@ API_KEY = "a246fe035696496cbd05283f2b828b0c"  # Your NewsAPI key
 
 # Page configuration
 st.set_page_config(
-    page_title="📰 News Aggregator",
+    page_title="📰 SamacharSync",
     page_icon="📰",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -372,7 +372,7 @@ with st.sidebar:
         st.rerun()
 
 # Main content
-st.markdown('<h1 class="main-header">📰 News Aggregator</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-header">📰 SamacharSync</h1>', unsafe_allow_html=True)
 
 # Search bar
 col1, col2, col3 = st.columns([1, 2, 1])
@@ -456,7 +456,7 @@ else:
 st.markdown('<div class="section-divider"></div>', unsafe_allow_html=True)
 st.markdown("""
 <div style="text-align: center; opacity: 0.7; padding: 1rem;">
-    <p>📰 News Aggregator | Data refreshes every 5 minutes</p>
+    <p>📰 SamacharSync| Data refreshes every 5 minutes</p>
 </div>
 """, unsafe_allow_html=True)
 
